@@ -71,6 +71,60 @@ div ul li svg {
     margin: 0 9px;
 }
 
+h1 {
+    animation-duration: 3s;
+    animation-name: blinkAnim;
+    animation-iteration-count: infinite;
+  
+}
+@keyframes blinkAnim {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+    }
+
+/* nosotros */
+
+.nosotros {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.titulo{
+    animation-duration: 3s;
+    animation-name: blinkAnim;
+    animation-iteration-count: infinite;
+    font-size: 50px;
+    background-color: #ffffff;
+    margin-left: 300px;
+    margin-right: 300px;
+  
+}
+@keyframes blinkAnim {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+    }
+
+.nosotros p {
+    justify-content: center;
+    padding: 80px;
+    font-size: 20px;
+}
+
+.nosotros img {
+    width: 900px;
+    right: 900px;
+    
+}
+
 @media (min-width: 576px) {
     .inicio {
         display: flex;
@@ -95,19 +149,15 @@ div ul li svg {
         margin: 0px; 
         color: #000000;   
     }
-}
 
-h1 {
-    animation-duration: 3s;
-    animation-name: blinkAnim;
-    animation-iteration-count: infinite;
-  
+    .nosotros {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .nosotros p {
+        justify-content: center;
+        padding: 30px;
+        font-size: 30px;
+    }
 }
-@keyframes blinkAnim {
-    0% {
-        opacity:0;
-    }
-    100% {
-        opacity:1;
-    }
-    }
