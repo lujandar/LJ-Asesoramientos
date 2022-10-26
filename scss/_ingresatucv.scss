@@ -1,0 +1,26 @@
+
+.ingresar{
+    p{
+        font-size: 20px;
+        background-color: #dd6502;
+        padding: 10px;
+        margin: 50px;
+        margin-right: 1700px;
+    }
+    .form-control {
+        display: block;
+        width: auto;
+        font-size: 3rem;
+        font-weight: 500;
+        line-height: 1.5;
+        color: #212529;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border-radius: 0.375rem;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
+}

@@ -1,0 +1,28 @@
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffffa1;
+}
+
+.formulario p { 
+    animation-duration: 3s;
+    animation-name: blinkAnim;
+    animation-iteration-count: infinite;
+    font-size: 25px;
+    background-color: $color-h2;
+    margin-right:500px;
+    margin-left: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: auto; 
+}
+@keyframes blinkAnim {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+    }
