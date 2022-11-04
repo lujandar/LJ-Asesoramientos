@@ -6,17 +6,26 @@
     background-color: #ffffffa1;
 }
 
-.formulario p { 
-    animation-duration: 3s;
-    animation-name: blinkAnim;
-    animation-iteration-count: infinite;
-    font-size: 25px;
-    background-color: $color-h2;
-    margin-right:500px;
-    margin-left: 50px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    padding: auto; 
+.formulario {
+            display: flex;
+            flex-direction: column;
+            width: 70%;
+            align-items: center;
+
+
+    p { 
+     animation-duration: 3s;
+     animation-name: blinkAnim;
+     animation-iteration-count: infinite;
+     font-size: 25px;
+     background-color: #ffffff;
+     margin-right:500px;
+     margin-left: 50px;
+     margin-top: 5px;
+     margin-bottom: 5px;
+     padding: auto; 
+    }
+
 }
 @keyframes blinkAnim {
     0% {

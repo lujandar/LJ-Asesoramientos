@@ -1,2 +1,15 @@
 $color-marca: #424141;
-$color-h2:#ffffff;
+$color:#ffffff;
+
+@mixin sizes($margin-top, $margin-bottom, $margin-left, $margin-right){
+    margin-top: $margin-top;
+    margin-bottom: $margin-bottom;
+    margin-left: $margin-left;
+    margin-right: $margin-right;
+}
+
+.inicio{
+    
+    @include sizes(10px, 10px, 30px, 30px);
+
+}

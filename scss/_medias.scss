@@ -22,12 +22,11 @@
     .servicios1{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-auto-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
         gap: 1rem;
-        animation-duration: 4s;
-        animation-name: ease-out;
+
     }
-  
+
 
     .form-control {
     display: block;
@@ -41,7 +40,8 @@
 @media (min-width: 980px) {
     .servicios1{
         grid-template-columns: 1fr 1fr 1fr;
-        grid-auto-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
       
     }
+ 
 }
