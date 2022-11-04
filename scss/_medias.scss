@@ -20,20 +20,14 @@
     }
 
     .servicios1{
-        display: flex;
-        flex-direction: row;
-        margin-left: 50px; 
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: 1fr 1fr 1fr;
+        gap: 1rem;
         animation-duration: 4s;
         animation-name: ease-out;
     }
-    
-    .servicios2{
-        display: flex;
-        flex-direction: row;
-        margin-left: 50px;  
-        animation-duration: 4s;
-        animation-name: ease-out;
-    }
+  
 
     .form-control {
     display: block;
@@ -42,4 +36,12 @@
     font-weight: 400;
     } 
 
+}
+
+@media (min-width: 980px) {
+    .servicios1{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-auto-rows: 1fr 1fr;
+      
+    }
 }

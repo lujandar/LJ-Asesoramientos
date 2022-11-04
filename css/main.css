@@ -89,27 +89,6 @@ footer {
   .nosotros img {
     width: 100%; }
 
-.servicios1 {
-  display: flex;
-  flex-direction: column;
-  padding: 5px;
-  margin: 10px;
-  width: 350px;
-  right: 600px;
-  margin-left: 5px;
-  animation-duration: 4s;
-  animation-name: ease-out; }
-
-.servicios2 {
-  display: flex;
-  flex-direction: column;
-  padding: 5px;
-  margin: 10px;
-  width: 350px;
-  right: 600px;
-  margin-left: 5px;
-  animation-duration: 4s;
-  animation-name: ease-out; }
 
 @keyframes ease-out {
   0% {
@@ -175,18 +154,6 @@ footer {
   .nosotros p {
     padding: 30px;
     font-size: 30px; }
-  .servicios1 {
-    display: flex;
-    flex-direction: row;
-    margin-left: 50px;
-    animation-duration: 4s;
-    animation-name: ease-out; }
-  .servicios2 {
-    display: flex;
-    flex-direction: row;
-    margin-left: 50px;
-    animation-duration: 4s;
-    animation-name: ease-out; }
   .form-control {
     display: block;
     width: 50%;
