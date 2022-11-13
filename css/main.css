@@ -125,22 +125,25 @@ footer {
   align-items: center;
   background-color: #ffffffa1; }
 
-.formulario {
+.formulario p {
+  animation-duration: 3s;
+  animation-name: blinkAnim;
+  animation-iteration-count: infinite;
+  font-size: 25px;
+  background-color: #ffffff;
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+.formulario .formcontacto {
   display: flex;
   flex-direction: column;
-  width: 70%;
+  align-items: center;
+  padding: 20px; }
+
+.formulario .formulariocontacto {
+  display: flex;
+  flex-direction: column;
   align-items: center; }
-  .formulario p {
-    animation-duration: 3s;
-    animation-name: blinkAnim;
-    animation-iteration-count: infinite;
-    font-size: 25px;
-    background-color: #ffffff;
-    margin-right: 500px;
-    margin-left: 50px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    padding: auto; }
 
 @keyframes blinkAnim {
   0% {
@@ -163,14 +166,11 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 1rem; }
-  .form-control {
-    display: block;
-    width: 50%;
-    font-size: 1rem;
-    font-weight: 400; } }
+    gap: 1rem; } }
 
 @media (min-width: 980px) {
   .servicios1 {
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr; } }
+    grid-template-rows: 1fr 1fr; }
+  .formcontacto {
+    width: 100%; } }
